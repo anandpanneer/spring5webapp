@@ -15,6 +15,9 @@ public class Address {
     private String country;
     private String postcode;
 
+    public Address() {
+    }
+
     public Address(String line1, String line2, String country, String postcode) {
         this.line1 = line1;
         this.line2 = line2;
